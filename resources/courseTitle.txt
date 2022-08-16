@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codata:resources xmlns:codata="http://www.campusonline.at/xsd/meta/codata/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <totalCount>400</totalCount>
+   <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/myCourses?semesterId=196" name="CoCourseGroupRegistrationDto"/>
+   <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courseCategories" name="CpCourseCategoryGroupDto"/>
+   <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courseTypes" name="CpCourseTypeLibDto"/>
+   <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courseInstructionLanguages" name="LanguageLibDto"/>
+   <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.apt/v1/weekdays" name="AptWeekDayDto"/>
+   <resource>
+      <link rel="detail" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950606473" name="CpCourseDto" key="950606473"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/slc.tm.cp/course-registration/950606473" name="CpCourseRegistrationDto" key="950606473"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/857C7028306DF9A4" name="IdentityLibDto" key="857C7028306DF9A4"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/13A9672610E5C833" name="IdentityLibDto" key="13A9672610E5C833"/>
+      <content type="model-slc.tm.cp.student.CpCourseDto">
+         <cpCourseDto>
+            <id>950606473</id>
+            <courseNumber>
+               <dotIndex>0</dotIndex>
+               <databaseValue>CVL0001005</databaseValue>
+               <courseNumber>CVL0001005</courseNumber>
+            </courseNumber>
+            <semesterDto>
+               <id>196</id>
+               <key>22S</key>
+               <academicYearId>1613</academicYearId>
+               <semesterType>S</semesterType>
+               <semesterDesignation coType="model-core.lib.model.langdata">
+                  <value>Sommersemester 2022</value>
+                  <translations>
+                     <translation lang="de">Sommersemester 2022</translation>
+                     <translation lang="en">Summer semester 2022</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </semesterDesignation>
+               <startOfAcademicSemester coType="date">
+                  <value>2022-04-01</value>
+               </startOfAcademicSemester>100
+               <endOfAcademicSemester coType="date">
+                  <value>2022-09-30</value>
+               </endOfAcademicSemester>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>2022 S</value>
+                  <translations>
+                     <translation lang="de">2022 S</translation>
+                     <translation lang="en">2022 S</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+            </semesterDto>
+            <courseTitle coType="model-core.lib.model.langdata">
+               <value>A wie Atombombe; Z wie Zauberflöte</value>
+               <translations>
+                  <translation lang="de">A wie Atombombe; Z wie Zauberflöte</translation>
+                  <translation lang="en">A for atomic bomb; Z for magic flute</translation>
+                  <translation lang="fr"/>
+                  <translation lang="it"/>
+               </translations>
+            </courseTitle>
+            <identityCodeId>90042805</identityCodeId>
+            <courseTypeDto>
+               <id>15</id>
+               <key>SE</key>
+               <courseTypeName coType="model-core.lib.model.langdata">
+                  <value>Seminar</value>
+                  <translations>
+                     <translation lang="de">Seminar</translation>
+                     <translation lang="en">seminar</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeName>
+               <courseTypeShortName coType="model-core.lib.model.langdata">
+                  <value>SE</value>
+                  <translations>
+                     <translation lang="de">SE</translation>
+                     <translation lang="en">SE</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeShortName>
+               <sort>30</sort>
+            </courseTypeDto>
+            <lectureships>
+               <id>10173625</id>
+               <courseId>950606473</courseId>
+               <identityLibDto>
+                  <obfuscated>857C7028306DF9A4</obfuscated>
+                  <firstName>Felix</firstName>
+                  <lastName>Mayer</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/857C7028306DF9A4" name="IdentityLibDto" key="857C7028306DF9A4"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <lectureships>
+               <id>10170293</id>
+               <courseId>950606473</courseId>
+               <identityLibDto>
+                  <obfuscated>13A9672610E5C833</obfuscated>
+                  <firstName>Jörg-Wilhelm</firstName>
+                  <lastName>Wernecke</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/13A9672610E5C833" name="IdentityLibDto" key="13A9672610E5C833"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <displayMoreLectureships>false</displayMoreLectureships>
+            <registrationAvailable>true</registrationAvailable>
+            <registrationInfo>Anmeldung abgelaufen</registrationInfo>
+            <registrationInfoStatus>NONE</registrationInfoStatus>
+            <registeredConfigType>REGPROC</registeredConfigType>
+            <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+            <courseNormKey>LVEAB</courseNormKey>
+            <courseNormConfigs>
+               <key>SST</key>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>SWS</value>
+                  <translations>
+                     <translation lang="de">SWS</translation>
+                     <translation lang="en">SWS</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+               <name coType="model-core.lib.model.langdata">
+                  <value>Semesterwochenstunden</value>
+                  <translations>
+                     <translation lang="de">Semesterwochenstunden</translation>
+                     <translation lang="en">Semester weekly hours</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </name>
+               <value>1.5</value>
+            </courseNormConfigs>
+            <lvCreditsEnabled>true</lvCreditsEnabled>
+            <eLearningActive>false</eLearningActive>
+         </cpCourseDto>
+      </content>
+   </resource>
+   <resource>
+      <link rel="detail" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950635440" name="CpCourseDto" key="950635440"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/slc.tm.cp/course-registration/950635440" name="CpCourseRegistrationDto" key="950635440"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/C12B9B288D038DE1" name="IdentityLibDto" key="C12B9B288D038DE1"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/72ABD7B32FD2DD7B" name="IdentityLibDto" key="72ABD7B32FD2DD7B"/>
+      <content type="model-slc.tm.cp.student.CpCourseDto">
+         <cpCourseDto>
+            <id>950635440</id>
+            <courseNumber>
+               <dotIndex>0</dotIndex>
+               <databaseValue>CVL0000930</databaseValue>
+               <courseNumber>CVL0000930</courseNumber>
+            </courseNumber>
+            <semesterDto>
+               <id>196</id>
+               <key>22S</key>
+               <academicYearId>1613</academicYearId>
+               <semesterType>S</semesterType>
+               <semesterDesignation coType="model-core.lib.model.langdata">
+                  <value>Sommersemester 2022</value>
+                  <translations>
+                     <translation lang="de">Sommersemester 2022</translation>
+                     <translation lang="en">Summer semester 2022</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </semesterDesignation>
+               <startOfAcademicSemester coType="date">
+                  <value>2022-04-01</value>
+               </startOfAcademicSemester>
+               <endOfAcademicSemester coType="date">
+                  <value>2022-09-30</value>
+               </endOfAcademicSemester>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>2022 S</value>
+                  <translations>
+                     <translation lang="de">2022 S</translation>
+                     <translation lang="en">2022 S</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+            </semesterDto>
+            <courseTitle coType="model-core.lib.model.langdata">
+               <value>Abenteuer Kreativität. Methoden zur Ideenfindung und Problemlösung</value>
+               <translations>
+                  <translation lang="de">Abenteuer Kreativität. Methoden zur Ideenfindung und Problemlösung</translation>
+                  <translation lang="en">Creative Adventure. How to Find Ideas and Solve Problems</translation>
+                  <translation lang="fr"/>
+                  <translation lang="it"/>
+               </translations>
+            </courseTitle>
+            <identityCodeId>90046673</identityCodeId>
+            <courseTypeDto>
+               <id>103</id>
+               <key>WS</key>
+               <courseTypeName coType="model-core.lib.model.langdata">
+                  <value>Workshop</value>
+                  <translations>
+                     <translation lang="de">Workshop</translation>
+                     <translation lang="en">workshop</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeName>
+               <courseTypeShortName coType="model-core.lib.model.langdata">
+                  <value>WS</value>
+                  <translations>
+                     <translation lang="de">WS</translation>
+                     <translation lang="en">WS</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeShortName>
+               <sort>150</sort>
+            </courseTypeDto>
+            <lectureships>
+               <id>10215452</id>
+               <courseId>950635440</courseId>
+               <identityLibDto>
+                  <obfuscated>C12B9B288D038DE1</obfuscated>
+                  <firstName>Victoria</firstName>
+                  <lastName>Bauer</lastName>
+                  <gender>FEMALE</gender>
+                  <genderNrForTitle>2</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/C12B9B288D038DE1" name="IdentityLibDto" key="C12B9B288D038DE1"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <lectureships>
+               <id>10215453</id>
+               <courseId>950635440</courseId>
+               <identityLibDto>
+                  <obfuscated>72ABD7B32FD2DD7B</obfuscated>
+                  <firstName>Adrian</firstName>
+                  <lastName>Ziegert</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/72ABD7B32FD2DD7B" name="IdentityLibDto" key="72ABD7B32FD2DD7B"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <displayMoreLectureships>false</displayMoreLectureships>
+            <registrationAvailable>true</registrationAvailable>
+            <registrationInfo>Anmeldung abgelaufen</registrationInfo>
+            <registrationInfoStatus>NONE</registrationInfoStatus>
+            <registeredConfigType>REGPROC</registeredConfigType>
+            <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+            <courseNormKey>LVEAB</courseNormKey>
+            <courseNormConfigs>
+               <key>SST</key>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>SWS</value>
+                  <translations>
+                     <translation lang="de">SWS</translation>
+                     <translation lang="en">SWS</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+               <name coType="model-core.lib.model.langdata">
+                  <value>Semesterwochenstunden</value>
+                  <translations>
+                     <translation lang="de">Semesterwochenstunden</translation>
+                     <translation lang="en">Semester weekly hours</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </name>
+               <value>1</value>
+            </courseNormConfigs>
+            <lvCreditsEnabled>true</lvCreditsEnabled>
+            <eLearningActive>false</eLearningActive>
+         </cpCourseDto>
+      </content>
+   </resource>
+   <resource>
+      <link rel="detail" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950626691" name="CpCourseDto" key="950626691"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/slc.tm.cp/course-registration/950626691" name="CpCourseRegistrationDto" key="950626691"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/DB6A988558BD78D9" name="IdentityLibDto" key="DB6A988558BD78D9"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/3D148CA315C8B5D1" name="IdentityLibDto" key="3D148CA315C8B5D1"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/79751761F0C2BD47" name="IdentityLibDto" key="79751761F0C2BD47"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/DB6A988558BD78D9" name="IdentityLibDto" key="DB6A988558BD78D9"/>
+      <content type="model-slc.tm.cp.student.CpCourseDto">
+         <cpCourseDto>
+            <id>950626691</id>
+            <courseNumber>
+               <dotIndex>0</dotIndex>
+               <databaseValue>0000001040</databaseValue>
+               <courseNumber>0000001040</courseNumber>
+            </courseNumber>
+            <semesterDto>
+               <id>196</id>
+               <key>22S</key>
+               <academicYearId>1613</academicYearId>
+               <semesterType>S</semesterType>
+               <semesterDesignation coType="model-core.lib.model.langdata">
+                  <value>Sommersemester 2022</value>
+                  <translations>
+                     <translation lang="de">Sommersemester 2022</translation>
+                     <translation lang="en">Summer semester 2022</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </semesterDesignation>
+               <startOfAcademicSemester coType="date">
+                  <value>2022-04-01</value>
+               </startOfAcademicSemester>
+               <endOfAcademicSemester coType="date">
+                  <value>2022-09-30</value>
+               </endOfAcademicSemester>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>2022 S</value>
+                  <translations>
+                     <translation lang="de">2022 S</translation>
+                     <translation lang="en">2022 S</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+            </semesterDto>
+            <courseTitle coType="model-core.lib.model.langdata">
+               <value>Advanced Concepts of Quantum Computing (IN2400)</value>
+               <translations>
+                  <translation lang="de">Advanced Concepts of Quantum Computing (IN2400)</translation>
+                  <translation lang="en">Advanced Concepts of Quantum Computing (IN2400)</translation>
+                  <translation lang="fr"/>
+                  <translation lang="it"/>
+               </translations>
+            </courseTitle>
+            <identityCodeId>90077659</identityCodeId>
+            <courseTypeDto>
+               <id>79</id>
+               <key>VI</key>
+               <courseTypeName coType="model-core.lib.model.langdata">
+                  <value>Vorlesung mit integrierten Übungen</value>
+                  <translations>
+                     <translation lang="de">Vorlesung mit integrierten Übungen</translation>
+                     <translation lang="en">lecture with integrated exercises</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeName>
+               <courseTypeShortName coType="model-core.lib.model.langdata">
+                  <value>VI</value>
+                  <translations>
+                     <translation lang="de">VI</translation>
+                     <translation lang="en">VI</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeShortName>
+               <sort>99</sort>
+            </courseTypeDto>
+            <lectureships>
+               <id>10194171</id>
+               <courseId>950626691</courseId>
+               <identityLibDto>
+                  <obfuscated>DB6A988558BD78D9</obfuscated>
+                  <firstName>Christian</firstName>
+                  <lastName>Mendl</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/DB6A988558BD78D9" name="IdentityLibDto" key="DB6A988558BD78D9"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>1</id>
+                  <key>L</key>
+                  <name>Leiter*in</name>
+               </teachingFunction>
+            </lectureships>
+            <lectureships>
+               <id>10194175</id>
+               <courseId>950626691</courseId>
+               <identityLibDto>
+                  <obfuscated>3D148CA315C8B5D1</obfuscated>
+                  <firstName>Qunsheng</firstName>
+                  <lastName>Huang</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/3D148CA315C8B5D1" name="IdentityLibDto" key="3D148CA315C8B5D1"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <lectureships>
+               <id>10194174</id>
+               <courseId>950626691</courseId>
+               <identityLibDto>
+                  <obfuscated>79751761F0C2BD47</obfuscated>
+                  <firstName>Irene</firstName>
+                  <lastName>Lopez Gutierrez</lastName>
+                  <gender>FEMALE</gender>
+                  <genderNrForTitle>2</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/79751761F0C2BD47" name="IdentityLibDto" key="79751761F0C2BD47"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <lectureships>
+               <id>10194172</id>
+               <courseId>950626691</courseId>
+               <identityLibDto>
+                  <obfuscated>DB6A988558BD78D9</obfuscated>
+                  <firstName>Christian</firstName>
+                  <lastName>Mendl</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/DB6A988558BD78D9" name="IdentityLibDto" key="DB6A988558BD78D9"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <displayMoreLectureships>false</displayMoreLectureships>
+            <registrationAvailable>true</registrationAvailable>
+            <registrationInfo>LV-Anmeldung möglich</registrationInfo>
+            <registrationInfoStatus>RUNNING</registrationInfoStatus>
+            <registeredConfigType>REGPROC</registeredConfigType>
+            <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+            <courseNormKey>LVEAB</courseNormKey>
+            <courseNormConfigs>
+               <key>SST</key>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>SWS</value>
+                  <translations>
+                     <translation lang="de">SWS</translation>
+                     <translation lang="en">SWS</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+               <name coType="model-core.lib.model.langdata">
+                  <value>Semesterwochenstunden</value>
+                  <translations>
+                     <translation lang="de">Semesterwochenstunden</translation>
+                     <translation lang="en">Semester weekly hours</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </name>
+               <value>4</value>
+            </courseNormConfigs>
+            <lvCreditsEnabled>true</lvCreditsEnabled>
+            <eLearningActive>false</eLearningActive>
+         </cpCourseDto>
+      </content>
+   </resource>
+   <resource>
+      <link rel="detail" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950606720" name="CpCourseDto" key="950606720"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/slc.tm.cp/course-registration/950606720" name="CpCourseRegistrationDto" key="950606720"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/CA316DF4C6FC776F" name="IdentityLibDto" key="CA316DF4C6FC776F"/>
+      <content type="model-slc.tm.cp.student.CpCourseDto">
+         <cpCourseDto>
+            <id>950606720</id>
+            <courseNumber>
+               <dotIndex>0</dotIndex>
+               <databaseValue>CVL0000918</databaseValue>
+               <courseNumber>CVL0000918</courseNumber>
+            </courseNumber>
+            <semesterDto>
+               <id>196</id>
+               <key>22S</key>
+               <academicYearId>1613</academicYearId>
+               <semesterType>S</semesterType>
+               <semesterDesignation coType="model-core.lib.model.langdata">
+                  <value>Sommersemester 2022</value>
+                  <translations>
+                     <translation lang="de">Sommersemester 2022</translation>
+                     <translation lang="en">Summer semester 2022</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </semesterDesignation>
+               <startOfAcademicSemester coType="date">
+                  <value>2022-04-01</value>
+               </startOfAcademicSemester>
+               <endOfAcademicSemester coType="date">
+                  <value>2022-09-30</value>
+               </endOfAcademicSemester>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>2022 S</value>
+                  <translations>
+                     <translation lang="de">2022 S</translation>
+                     <translation lang="en">2022 S</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+            </semesterDto>
+            <courseTitle coType="model-core.lib.model.langdata">
+               <value>Agile Project Management Hands-On</value>
+               <translations>
+                  <translation lang="de">Agile Project Management Hands-On</translation>
+                  <translation lang="en">Agile project management hands-on</translation>
+                  <translation lang="fr"/>
+                  <translation lang="it"/>
+               </translations>
+            </courseTitle>
+            <identityCodeId>90026893</identityCodeId>
+            <courseTypeDto>
+               <id>103</id>
+               <key>WS</key>
+               <courseTypeName coType="model-core.lib.model.langdata">
+                  <value>Workshop</value>
+                  <translations>
+                     <translation lang="de">Workshop</translation>
+                     <translation lang="en">workshop</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeName>
+               <courseTypeShortName coType="model-core.lib.model.langdata">
+                  <value>WS</value>
+                  <translations>
+                     <translation lang="de">WS</translation>
+                     <translation lang="en">WS</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeShortName>
+               <sort>150</sort>
+            </courseTypeDto>
+            <lectureships>
+               <id>10198767</id>
+               <courseId>950606720</courseId>
+               <identityLibDto>
+                  <obfuscated>CA316DF4C6FC776F</obfuscated>
+                  <firstName>Christoph</firstName>
+                  <lastName>Kipfer</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/CA316DF4C6FC776F" name="IdentityLibDto" key="CA316DF4C6FC776F"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <displayMoreLectureships>false</displayMoreLectureships>
+            <registrationAvailable>true</registrationAvailable>
+            <registrationInfo>Anmeldung abgelaufen</registrationInfo>
+            <registrationInfoStatus>NONE</registrationInfoStatus>
+            <registeredConfigType>REGPROC</registeredConfigType>
+            <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+            <courseNormKey>LVEAB</courseNormKey>
+            <courseNormConfigs>
+               <key>SST</key>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>SWS</value>
+                  <translations>
+                     <translation lang="de">SWS</translation>
+                     <translation lang="en">SWS</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+               <name coType="model-core.lib.model.langdata">
+                  <value>Semesterwochenstunden</value>
+                  <translations>
+                     <translation lang="de">Semesterwochenstunden</translation>
+                     <translation lang="en">Semester weekly hours</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </name>
+               <value>1</value>
+            </courseNormConfigs>
+            <lvCreditsEnabled>true</lvCreditsEnabled>
+            <eLearningActive>false</eLearningActive>
+         </cpCourseDto>
+      </content>
+   </resource>
+   <resource>
+      <link rel="detail" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950604300" name="CpCourseDto" key="950604300"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/slc.tm.cp/course-registration/950604300" name="CpCourseRegistrationDto" key="950604300"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/DCBB2AF9D0C05648" name="IdentityLibDto" key="DCBB2AF9D0C05648"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/E51B94761D023B05" name="IdentityLibDto" key="E51B94761D023B05"/>
+      <content type="model-slc.tm.cp.student.CpCourseDto">
+         <cpCourseDto>
+            <id>950604300</id>
+            <courseNumber>
+               <dotIndex>0</dotIndex>
+               <databaseValue>0000002726</databaseValue>
+               <courseNumber>0000002726</courseNumber>
+            </courseNumber>
+            <semesterDto>
+               <id>196</id>
+               <key>22S</key>
+               <academicYearId>1613</academicYearId>
+               <semesterType>S</semesterType>
+               <semesterDesignation coType="model-core.lib.model.langdata">
+                  <value>Sommersemester 2022</value>
+                  <translations>
+                     <translation lang="de">Sommersemester 2022</translation>
+                     <translation lang="en">Summer semester 2022</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </semesterDesignation>
+               <startOfAcademicSemester coType="date">
+                  <value>2022-04-01</value>
+               </startOfAcademicSemester>
+               <endOfAcademicSemester coType="date">
+                  <value>2022-09-30</value>
+               </endOfAcademicSemester>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>2022 S</value>
+                  <translations>
+                     <translation lang="de">2022 S</translation>
+                     <translation lang="en">2022 S</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+            </semesterDto>
+            <courseTitle coType="model-core.lib.model.langdata">
+               <value>Algebra [MA2010]</value>
+               <translations>
+                  <translation lang="de">Algebra [MA2010]</translation>
+                  <translation lang="en">Algebra [MA2010]</translation>
+                  <translation lang="fr"/>
+                  <translation lang="it"/>
+               </translations>
+            </courseTitle>
+            <identityCodeId>90071495</identityCodeId>
+            <courseTypeDto>
+               <id>17</id>
+               <key>VO</key>
+               <courseTypeName coType="model-core.lib.model.langdata">
+                  <value>Vorlesung</value>
+                  <translations>
+                     <translation lang="de">Vorlesung</translation>
+                     <translation lang="en">lecture</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeName>
+               <courseTypeShortName coType="model-core.lib.model.langdata">
+                  <value>VO</value>
+                  <translations>
+                     <translation lang="de">VO</translation>
+                     <translation lang="en">VO</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeShortName>
+               <sort>10</sort>
+            </courseTypeDto>
+            <lectureships>
+               <id>10198645</id>
+               <courseId>950604300</courseId>
+               <identityLibDto>
+                  <obfuscated>DCBB2AF9D0C05648</obfuscated>
+                  <firstName>Gregor</firstName>
+                  <lastName>Kemper</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/DCBB2AF9D0C05648" name="IdentityLibDto" key="DCBB2AF9D0C05648"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+               <sort>1</sort>
+            </lectureships>
+            <lectureships>
+               <id>10218160</id>
+               <courseId>950604300</courseId>
+               <identityLibDto>
+                  <obfuscated>E51B94761D023B05</obfuscated>
+                  <firstName>Fabian</firstName>
+                  <lastName>Reimers</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/E51B94761D023B05" name="IdentityLibDto" key="E51B94761D023B05"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+               <sort>2</sort>
+            </lectureships>
+            <displayMoreLectureships>false</displayMoreLectureships>
+            <registrationAvailable>true</registrationAvailable>
+            <registrationInfo>Anmeldung abgelaufen</registrationInfo>
+            <registrationInfoStatus>NONE</registrationInfoStatus>
+            <registeredConfigType>REGPROC</registeredConfigType>
+            <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+            <courseNormKey>LVEAB</courseNormKey>
+            <courseNormConfigs>
+               <key>SST</key>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>SWS</value>
+                  <translations>
+                     <translation lang="de">SWS</translation>
+                     <translation lang="en">SWS</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+               <name coType="model-core.lib.model.langdata">
+                  <value>Semesterwochenstunden</value>
+                  <translations>
+                     <translation lang="de">Semesterwochenstunden</translation>
+                     <translation lang="en">Semester weekly hours</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </name>
+               <value>5</value>
+            </courseNormConfigs>
+            <lvCreditsEnabled>true</lvCreditsEnabled>
+            <eLearningActive>false</eLearningActive>
+         </cpCourseDto>
+      </content>
+   </resource>
+   <resource>
+      <link rel="detail" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950636240" name="CpCourseDto" key="950636240"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/slc.tm.cp/course-registration/950636240" name="CpCourseRegistrationDto" key="950636240"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/13A9672610E5C833" name="IdentityLibDto" key="13A9672610E5C833"/>
+      <content type="model-slc.tm.cp.student.CpCourseDto">
+         <cpCourseDto>
+            <id>950636240</id>
+            <courseNumber>
+               <dotIndex>0</dotIndex>
+               <databaseValue>CVL0001015</databaseValue>
+               <courseNumber>CVL0001015</courseNumber>
+            </courseNumber>
+            <semesterDto>
+               <id>196</id>
+               <key>22S</key>
+               <academicYearId>1613</academicYearId>
+               <semesterType>S</semesterType>
+               <semesterDesignation coType="model-core.lib.model.langdata">
+                  <value>Sommersemester 2022</value>
+                  <translations>
+                     <translation lang="de">Sommersemester 2022</translation>
+                     <translation lang="en">Summer semester 2022</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </semesterDesignation>
+               <startOfAcademicSemester coType="date">
+                  <value>2022-04-01</value>
+               </startOfAcademicSemester>
+               <endOfAcademicSemester coType="date">
+                  <value>2022-09-30</value>
+               </endOfAcademicSemester>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>2022 S</value>
+                  <translations>
+                     <translation lang="de">2022 S</translation>
+                     <translation lang="en">2022 S</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+            </semesterDto>
+            <courseTitle coType="model-core.lib.model.langdata">
+               <value>Algorithmen: Die Berechenbarkeit der Welt? (Eine Einführung in die Wissenschafts- und Technikphilosophie)</value>
+               <translations>
+                  <translation lang="de">Algorithmen: Die Berechenbarkeit der Welt? (Eine Einführung in die Wissenschafts- und Technikphilosophie)</translation>
+                  <translation lang="en">Algorithms: The Predictability of the World? (An Introduction to Philosophy of Science and Technology)</translation>
+                  <translation lang="fr"/>
+                  <translation lang="it"/>
+               </translations>
+            </courseTitle>
+            <identityCodeId>90063993</identityCodeId>
+            <courseTypeDto>
+               <id>15</id>
+               <key>SE</key>
+               <courseTypeName coType="model-core.lib.model.langdata">
+                  <value>Seminar</value>
+                  <translations>
+                     <translation lang="de">Seminar</translation>
+                     <translation lang="en">seminar</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeName>
+               <courseTypeShortName coType="model-core.lib.model.langdata">
+                  <value>SE</value>
+                  <translations>
+                     <translation lang="de">SE</translation>
+                     <translation lang="en">SE</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeShortName>
+               <sort>30</sort>
+            </courseTypeDto>
+            <lectureships>
+               <id>10217209</id>
+               <courseId>950636240</courseId>
+               <identityLibDto>
+                  <obfuscated>13A9672610E5C833</obfuscated>
+                  <firstName>Jörg-Wilhelm</firstName>
+                  <lastName>Wernecke</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/13A9672610E5C833" name="IdentityLibDto" key="13A9672610E5C833"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <displayMoreLectureships>false</displayMoreLectureships>
+            <registrationAvailable>true</registrationAvailable>
+            <registrationInfo>Anmeldung abgelaufen</registrationInfo>
+            <registrationInfoStatus>NONE</registrationInfoStatus>
+            <registeredConfigType>REGPROC</registeredConfigType>
+            <displayCourseRegistrationInfo>true</displayCourseRegistrationInfo>
+            <courseNormKey>LVEAB</courseNormKey>
+            <courseNormConfigs>
+               <key>SST</key>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>SWS</value>
+                  <translations>
+                     <translation lang="de">SWS</translation>
+                     <translation lang="en">SWS</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+               <name coType="model-core.lib.model.langdata">
+                  <value>Semesterwochenstunden</value>
+                  <translations>
+                     <translation lang="de">Semesterwochenstunden</translation>
+                     <translation lang="en">Semester weekly hours</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </name>
+               <value>2</value>
+            </courseNormConfigs>
+            <lvCreditsEnabled>true</lvCreditsEnabled>
+            <eLearningActive>false</eLearningActive>
+         </cpCourseDto>
+      </content>
+   </resource>
+   <resource>
+      <link rel="detail" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950602768" name="CpCourseDto" key="950602768"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/slc.tm.cp/course-registration/950602768" name="CpCourseRegistrationDto" key="950602768"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/7AD358E6CBA98AE7" name="IdentityLibDto" key="7AD358E6CBA98AE7"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/7AD358E6CBA98AE7" name="IdentityLibDto" key="7AD358E6CBA98AE7"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/79751761F0C2BD47" name="IdentityLibDto" key="79751761F0C2BD47"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/3194EE3B8F8781CE" name="IdentityLibDto" key="3194EE3B8F8781CE"/>
+      <content type="model-slc.tm.cp.student.CpCourseDto">
+         <cpCourseDto>
+            <id>950602768</id>
+            <courseNumber>
+               <dotIndex>0</dotIndex>
+               <databaseValue>0000002480</databaseValue>
+               <courseNumber>0000002480</courseNumber>
+            </courseNumber>
+            <semesterDto>
+               <id>196</id>
+               <key>22S</key>
+               <academicYearId>1613</academicYearId>
+               <semesterType>S</semesterType>
+               <semesterDesignation coType="model-core.lib.model.langdata">
+                  <value>Sommersemester 2022</value>
+                  <translations>
+                     <translation lang="de">Sommersemester 2022</translation>
+                     <translation lang="en">Summer semester 2022</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </semesterDesignation>
+               <startOfAcademicSemester coType="date">
+                  <value>2022-04-01</value>
+               </startOfAcademicSemester>
+               <endOfAcademicSemester coType="date">
+                  <value>2022-09-30</value>
+               </endOfAcademicSemester>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>2022 S</value>
+                  <translations>
+                     <translation lang="de">2022 S</translation>
+                     <translation lang="en">2022 S</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+            </semesterDto>
+            <courseTitle coType="model-core.lib.model.langdata">
+               <value>Algorithms for Scientific Computing (IN2001)</value>
+               <translations>
+                  <translation lang="de">Algorithms for Scientific Computing (IN2001)</translation>
+                  <translation lang="en">Algorithms for Scientific Computing (IN2001)</translation>
+                  <translation lang="fr"/>
+                  <translation lang="it"/>
+               </translations>
+            </courseTitle>
+            <identityCodeId>21083562</identityCodeId>
+            <courseTypeDto>
+               <id>79</id>
+               <key>VI</key>
+               <courseTypeName coType="model-core.lib.model.langdata">
+                  <value>Vorlesung mit integrierten Übungen</value>
+                  <translations>
+                     <translation lang="de">Vorlesung mit integrierten Übungen</translation>
+                     <translation lang="en">lecture with integrated exercises</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeName>
+               <courseTypeShortName coType="model-core.lib.model.langdata">
+                  <value>VI</value>
+                  <translations>
+                     <translation lang="de">VI</translation>
+                     <translation lang="en">VI</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeShortName>
+               <sort>99</sort>
+            </courseTypeDto>
+            <lectureships>
+               <id>10167054</id>
+               <courseId>950602768</courseId>
+               <identityLibDto>
+                  <obfuscated>7AD358E6CBA98AE7</obfuscated>
+                  <firstName>Michael</firstName>
+                  <lastName>Bader</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/7AD358E6CBA98AE7" name="IdentityLibDto" key="7AD358E6CBA98AE7"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>1</id>
+                  <key>L</key>
+                  <name>Leiter*in</name>
+               </teachingFunction>
+            </lectureships>
+            <lectureships>
+               <id>10167055</id>
+               <courseId>950602768</courseId>
+               <identityLibDto>
+                  <obfuscated>7AD358E6CBA98AE7</obfuscated>
+                  <firstName>Michael</firstName>
+                  <lastName>Bader</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/7AD358E6CBA98AE7" name="IdentityLibDto" key="7AD358E6CBA98AE7"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <lectureships>
+               <id>10194046</id>
+               <courseId>950602768</courseId>
+               <identityLibDto>
+                  <obfuscated>79751761F0C2BD47</obfuscated>
+                  <firstName>Irene</firstName>
+                  <lastName>Lopez Gutierrez</lastName>
+                  <gender>FEMALE</gender>
+                  <genderNrForTitle>2</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/79751761F0C2BD47" name="IdentityLibDto" key="79751761F0C2BD47"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <lectureships>
+               <id>10179502</id>
+               <courseId>950602768</courseId>
+               <identityLibDto>
+                  <obfuscated>3194EE3B8F8781CE</obfuscated>
+                  <firstName>Mario</firstName>
+                  <lastName>Wille</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/3194EE3B8F8781CE" name="IdentityLibDto" key="3194EE3B8F8781CE"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <displayMoreLectureships>false</displayMoreLectureships>
+            <registrationAvailable>true</registrationAvailable>
+            <registrationInfo>LV-Anmeldung möglich</registrationInfo>
+            <registrationInfoStatus>RUNNING</registrationInfoStatus>
+            <registeredConfigType>REGPROC</registeredConfigType>
+            <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+            <courseNormKey>LVEAB</courseNormKey>
+            <courseNormConfigs>
+               <key>SST</key>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>SWS</value>
+                  <translations>
+                     <translation lang="de">SWS</translation>
+                     <translation lang="en">SWS</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+               <name coType="model-core.lib.model.langdata">
+                  <value>Semesterwochenstunden</value>
+                  <translations>
+                     <translation lang="de">Semesterwochenstunden</translation>
+                     <translation lang="en">Semester weekly hours</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </name>
+               <value>6</value>
+            </courseNormConfigs>
+            <lvCreditsEnabled>true</lvCreditsEnabled>
+            <eLearningActive>false</eLearningActive>
+         </cpCourseDto>
+      </content>
+   </resource>
+   <resource>
+      <link rel="detail" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950601839" name="CpCourseDto" key="950601839"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/slc.tm.cp/course-registration/950601839" name="CpCourseRegistrationDto" key="950601839"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/BA933977936A2B94" name="IdentityLibDto" key="BA933977936A2B94"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/D6CBB6D1220FBAFD" name="IdentityLibDto" key="D6CBB6D1220FBAFD"/>
+      <content type="model-slc.tm.cp.student.CpCourseDto">
+         <cpCourseDto>
+            <id>950601839</id>
+            <courseNumber>
+               <dotIndex>0</dotIndex>
+               <databaseValue>0820317336</databaseValue>
+               <courseNumber>0820317336</courseNumber>
+            </courseNumber>
+            <semesterDto>
+               <id>196</id>
+               <key>22S</key>
+               <academicYearId>1613</academicYearId>
+               <semesterType>S</semesterType>
+               <semesterDesignation coType="model-core.lib.model.langdata">
+                  <value>Sommersemester 2022</value>
+                  <translations>
+                     <translation lang="de">Sommersemester 2022</translation>
+                     <translation lang="en">Summer semester 2022</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </semesterDesignation>
+               <startOfAcademicSemester coType="date">
+                  <value>2022-04-01</value>
+               </startOfAcademicSemester>
+               <endOfAcademicSemester coType="date">
+                  <value>2022-09-30</value>
+               </endOfAcademicSemester>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>2022 S</value>
+                  <translations>
+                     <translation lang="de">2022 S</translation>
+                     <translation lang="en">2022 S</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+            </semesterDto>
+            <courseTitle coType="model-core.lib.model.langdata">
+               <value>Angewandte Technische Chemie (Makromolekulare Chemie)  (CH1123)</value>
+               <translations>
+                  <translation lang="de">Angewandte Technische Chemie (Makromolekulare Chemie)  (CH1123)</translation>
+                  <translation lang="en">Applied Technical Chemistry (Macromolecular Chemistry) (CH1123)</translation>
+                  <translation lang="fr"/>
+                  <translation lang="it"/>
+               </translations>
+            </courseTitle>
+            <identityCodeId>20317336</identityCodeId>
+            <courseTypeDto>
+               <id>17</id>
+               <key>VO</key>
+               <courseTypeName coType="model-core.lib.model.langdata">
+                  <value>Vorlesung</value>
+                  <translations>
+                     <translation lang="de">Vorlesung</translation>
+                     <translation lang="en">lecture</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeName>
+               <courseTypeShortName coType="model-core.lib.model.langdata">
+                  <value>VO</value>
+                  <translations>
+                     <translation lang="de">VO</translation>
+                     <translation lang="en">VO</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeShortName>
+               <sort>10</sort>
+            </courseTypeDto>
+            <lectureships>
+               <id>10170103</id>
+               <courseId>950601839</courseId>
+               <identityLibDto>
+                  <obfuscated>BA933977936A2B94</obfuscated>
+                  <firstName>Carsten</firstName>
+                  <lastName>Troll</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/BA933977936A2B94" name="IdentityLibDto" key="BA933977936A2B94"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+               <sort>1</sort>
+            </lectureships>
+            <lectureships>
+               <id>10169508</id>
+               <courseId>950601839</courseId>
+               <identityLibDto>
+                  <obfuscated>D6CBB6D1220FBAFD</obfuscated>
+                  <firstName>Bernhard</firstName>
+                  <lastName>Rieger</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/D6CBB6D1220FBAFD" name="IdentityLibDto" key="D6CBB6D1220FBAFD"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+               <sort>2</sort>
+            </lectureships>
+            <displayMoreLectureships>false</displayMoreLectureships>
+            <registrationAvailable>true</registrationAvailable>
+            <registrationInfo>Anmeldung abgelaufen</registrationInfo>
+            <registrationInfoStatus>NONE</registrationInfoStatus>
+            <registeredConfigType>REGPROC</registeredConfigType>
+            <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+            <courseNormKey>LVEAB</courseNormKey>
+            <courseNormConfigs>
+               <key>SST</key>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>SWS</value>
+                  <translations>
+                     <translation lang="de">SWS</translation>
+                     <translation lang="en">SWS</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+               <name coType="model-core.lib.model.langdata">
+                  <value>Semesterwochenstunden</value>
+                  <translations>
+                     <translation lang="de">Semesterwochenstunden</translation>
+                     <translation lang="en">Semester weekly hours</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </name>
+               <value>2</value>
+            </courseNormConfigs>
+            <lvCreditsEnabled>true</lvCreditsEnabled>
+            <eLearningActive>false</eLearningActive>
+         </cpCourseDto>
+      </content>
+   </resource>
+   <resource>
+      <link rel="detail" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950606194" name="CpCourseDto" key="950606194"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/slc.tm.cp/course-registration/950606194" name="CpCourseRegistrationDto" key="950606194"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/8D3B848D5C75485D" name="IdentityLibDto" key="8D3B848D5C75485D"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/6D4F93DD406AEB52" name="IdentityLibDto" key="6D4F93DD406AEB52"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/5BACFBC8466BBEEE" name="IdentityLibDto" key="5BACFBC8466BBEEE"/>
+      <content type="model-slc.tm.cp.student.CpCourseDto">
+         <cpCourseDto>
+            <id>950606194</id>
+            <courseNumber>
+               <dotIndex>0</dotIndex>
+               <databaseValue>0000051492</databaseValue>
+               <courseNumber>0000051492</courseNumber>
+            </courseNumber>
+            <semesterDto>
+               <id>196</id>
+               <key>22S</key>
+               <academicYearId>1613</academicYearId>
+               <semesterType>S</semesterType>
+               <semesterDesignation coType="model-core.lib.model.langdata">
+                  <value>Sommersemester 2022</value>
+                  <translations>
+                     <translation lang="de">Sommersemester 2022</translation>
+                     <translation lang="en">Summer semester 2022</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </semesterDesignation>
+               <startOfAcademicSemester coType="date">
+                  <value>2022-04-01</value>
+               </startOfAcademicSemester>
+               <endOfAcademicSemester coType="date">
+                  <value>2022-09-30</value>
+               </endOfAcademicSemester>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>2022 S</value>
+                  <translations>
+                     <translation lang="de">2022 S</translation>
+                     <translation lang="en">2022 S</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+            </semesterDto>
+            <courseTitle coType="model-core.lib.model.langdata">
+               <value>Anorganische Molekülchemie (CH4103)</value>
+               <translations>
+                  <translation lang="de">Anorganische Molekülchemie (CH4103)</translation>
+                  <translation lang="en">Molecular Inorganic Chemistry (CH4103)</translation>
+                  <translation lang="fr"/>
+                  <translation lang="it"/>
+               </translations>
+            </courseTitle>
+            <identityCodeId>90040824</identityCodeId>
+            <courseTypeDto>
+               <id>17</id>
+               <key>VO</key>
+               <courseTypeName coType="model-core.lib.model.langdata">
+                  <value>Vorlesung</value>
+                  <translations>
+                     <translation lang="de">Vorlesung</translation>
+                     <translation lang="en">lecture</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeName>
+               <courseTypeShortName coType="model-core.lib.model.langdata">
+                  <value>VO</value>
+                  <translations>
+                     <translation lang="de">VO</translation>
+                     <translation lang="en">VO</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeShortName>
+               <sort>10</sort>
+            </courseTypeDto>
+            <lectureships>
+               <id>10177877</id>
+               <courseId>950606194</courseId>
+               <identityLibDto>
+                  <obfuscated>8D3B848D5C75485D</obfuscated>
+                  <firstName>Angela</firstName>
+                  <lastName>Casini</lastName>
+                  <gender>FEMALE</gender>
+                  <genderNrForTitle>2</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/8D3B848D5C75485D" name="IdentityLibDto" key="8D3B848D5C75485D"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <lectureships>
+               <id>10195554</id>
+               <courseId>950606194</courseId>
+               <identityLibDto>
+                  <obfuscated>6D4F93DD406AEB52</obfuscated>
+                  <firstName>Shigeyoshi</firstName>
+                  <lastName>Inoue</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/6D4F93DD406AEB52" name="IdentityLibDto" key="6D4F93DD406AEB52"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <lectureships>
+               <id>10195555</id>
+               <courseId>950606194</courseId>
+               <identityLibDto>
+                  <obfuscated>5BACFBC8466BBEEE</obfuscated>
+                  <firstName>Alexander</firstName>
+                  <lastName>Pöthig</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/5BACFBC8466BBEEE" name="IdentityLibDto" key="5BACFBC8466BBEEE"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <displayMoreLectureships>false</displayMoreLectureships>
+            <registrationAvailable>true</registrationAvailable>
+            <registrationInfo>Anmeldung abgelaufen</registrationInfo>
+            <registrationInfoStatus>NONE</registrationInfoStatus>
+            <registeredConfigType>REGPROC</registeredConfigType>
+            <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+            <courseNormKey>LVEAB</courseNormKey>
+            <courseNormConfigs>
+               <key>SST</key>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>SWS</value>
+                  <translations>
+                     <translation lang="de">SWS</translation>
+                     <translation lang="en">SWS</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+               <name coType="model-core.lib.model.langdata">
+                  <value>Semesterwochenstunden</value>
+                  <translations>
+                     <translation lang="de">Semesterwochenstunden</translation>
+                     <translation lang="en">Semester weekly hours</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </name>
+               <value>3</value>
+            </courseNormConfigs>
+            <lvCreditsEnabled>true</lvCreditsEnabled>
+            <eLearningActive>false</eLearningActive>
+         </cpCourseDto>
+      </content>
+   </resource>
+   <resource>
+      <link rel="detail" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950606857" name="CpCourseDto" key="950606857"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/slc.tm.cp/course-registration/950606857" name="CpCourseRegistrationDto" key="950606857"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/8D3B848D5C75485D" name="IdentityLibDto" key="8D3B848D5C75485D"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/6D4F93DD406AEB52" name="IdentityLibDto" key="6D4F93DD406AEB52"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/5BACFBC8466BBEEE" name="IdentityLibDto" key="5BACFBC8466BBEEE"/>
+      <content type="model-slc.tm.cp.student.CpCourseDto">
+         <cpCourseDto>
+            <id>950606857</id>
+            <courseNumber>
+               <dotIndex>0</dotIndex>
+               <databaseValue>0000051493</databaseValue>
+               <courseNumber>0000051493</courseNumber>
+            </courseNumber>
+            <semesterDto>
+               <id>196</id>
+               <key>22S</key>
+               <academicYearId>1613</academicYearId>
+               <semesterType>S</semesterType>
+               <semesterDesignation coType="model-core.lib.model.langdata">
+                  <value>Sommersemester 2022</value>
+                  <translations>
+                     <translation lang="de">Sommersemester 2022</translation>
+                     <translation lang="en">Summer semester 2022</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </semesterDesignation>
+               <startOfAcademicSemester coType="date">
+                  <value>2022-04-01</value>
+               </startOfAcademicSemester>
+               <endOfAcademicSemester coType="date">
+                  <value>2022-09-30</value>
+               </endOfAcademicSemester>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>2022 S</value>
+                  <translations>
+                     <translation lang="de">2022 S</translation>
+                     <translation lang="en">2022 S</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+            </semesterDto>
+            <courseTitle coType="model-core.lib.model.langdata">
+               <value>Anorganische Molekülchemie, Übung (CH4103)</value>
+               <translations>
+                  <translation lang="de">Anorganische Molekülchemie, Übung (CH4103)</translation>
+                  <translation lang="en">Molecular Inorganic Chemistry, Exercise (CH4103)</translation>
+                  <translation lang="fr"/>
+                  <translation lang="it"/>
+               </translations>
+            </courseTitle>
+            <identityCodeId>90040825</identityCodeId>
+            <courseTypeDto>
+               <id>16</id>
+               <key>UE</key>
+               <courseTypeName coType="model-core.lib.model.langdata">
+                  <value>Übung</value>
+                  <translations>
+                     <translation lang="de">Übung</translation>
+                     <translation lang="en">exercise</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeName>
+               <courseTypeShortName coType="model-core.lib.model.langdata">
+                  <value>UE</value>
+                  <translations>
+                     <translation lang="de">UE</translation>
+                     <translation lang="en">UE</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTypeShortName>
+               <sort>20</sort>
+            </courseTypeDto>
+            <lectureships>
+               <id>10177880</id>
+               <courseId>950606857</courseId>
+               <identityLibDto>
+                  <obfuscated>8D3B848D5C75485D</obfuscated>
+                  <firstName>Angela</firstName>
+                  <lastName>Casini</lastName>
+                  <gender>FEMALE</gender>
+                  <genderNrForTitle>2</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/8D3B848D5C75485D" name="IdentityLibDto" key="8D3B848D5C75485D"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <lectureships>
+               <id>10195560</id>
+               <courseId>950606857</courseId>
+               <identityLibDto>
+                  <obfuscated>6D4F93DD406AEB52</obfuscated>
+                  <firstName>Shigeyoshi</firstName>
+                  <lastName>Inoue</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/6D4F93DD406AEB52" name="IdentityLibDto" key="6D4F93DD406AEB52"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <lectureships>
+               <id>10195561</id>
+               <courseId>950606857</courseId>
+               <identityLibDto>
+                  <obfuscated>5BACFBC8466BBEEE</obfuscated>
+                  <firstName>Alexander</firstName>
+                  <lastName>Pöthig</lastName>
+                  <gender>MALE</gender>
+                  <genderNrForTitle>1</genderNrForTitle>
+                  <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/brm.pm.bc/identities/5BACFBC8466BBEEE" name="IdentityLibDto" key="5BACFBC8466BBEEE"/>
+               </identityLibDto>
+               <teachingFunction>
+                  <id>2</id>
+                  <key>V</key>
+                  <name>Vortragende*r</name>
+               </teachingFunction>
+            </lectureships>
+            <displayMoreLectureships>false</displayMoreLectureships>
+            <registrationAvailable>true</registrationAvailable>
+            <registrationInfo>Anmeldung abgelaufen</registrationInfo>
+            <registrationInfoStatus>NONE</registrationInfoStatus>
+            <registeredConfigType>REGPROC</registeredConfigType>
+            <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+            <courseNormKey>LVEAB</courseNormKey>
+            <courseNormConfigs>
+               <key>SST</key>
+               <shortName coType="model-core.lib.model.langdata">
+                  <value>SWS</value>
+                  <translations>
+                     <translation lang="de">SWS</translation>
+                     <translation lang="en">SWS</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </shortName>
+               <name coType="model-core.lib.model.langdata">
+                  <value>Semesterwochenstunden</value>
+                  <translations>
+                     <translation lang="de">Semesterwochenstunden</translation>
+                     <translation lang="en">Semester weekly hours</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </name>
+               <value>1</value>
+            </courseNormConfigs>
+            <lvCreditsEnabled>true</lvCreditsEnabled>
+            <eLearningActive>false</eLearningActive>
+         </cpCourseDto>
+      </content>
+   </resource>
+</codata:resources>
